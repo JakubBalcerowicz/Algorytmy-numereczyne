@@ -35,9 +35,9 @@ namespace Matrix
         {
             int size;
             string[] pieces = txt.Split(new char[] {',','/'});
-            Numerator = long.Parse(pieces[1]);
+            Numerator = BigInteger.Parse(pieces[1]);
             size = pieces[1].Length;
-            Denominator = (long)Math.Pow(10, size);
+            Denominator = (BigInteger)Math.Pow(10, size);
             Simplify();
         }
         public Fraction(BigInteger numer, BigInteger denom)
