@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -9,8 +8,12 @@ using System.Threading.Tasks;
 using System.Diagnostics;
 using System.Threading;
 using System.Numerics;
-
-
+/*---------------------------
+ * Jakub Balcerowicz
+ * Indeks: 238153
+ * Grupa 1 Tester-Programista
+ * --------------------------
+ * */
 
 namespace Matrix
 {
@@ -219,10 +222,9 @@ namespace Matrix
         }
         static void Main(string[] args)
         {
-           // MyArray(Configuration.SIZE);
-            // Console.WriteLine(SIZE);
+             //MyArray(Configuration.SIZE);
              DoubleArray(Configuration.SIZE);
-            //FloatArray(Configuration.SIZE);
+             //FloatArray(Configuration.SIZE);
         }
         class MyMatrix<T>
         {
